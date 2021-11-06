@@ -1,0 +1,15 @@
+.mbr-section-title {
+    margin-bottom: 3rem !important;
+}
+
+@media (max-width : 600px) {
+    .cid-sO0lheYJKH .mbr-section-btn {
+        display: block;
+    }
+
+    .mbr-section-btn {
+        margin: 0 auto !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
