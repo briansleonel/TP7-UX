@@ -1,15 +1,58 @@
 .mbr-section-title {
-    margin-bottom: 3rem !important;
+  margin-bottom: 3rem !important;
 }
 
-@media (max-width : 600px) {
-    .cid-sO0lheYJKH .mbr-section-btn {
-        display: block;
-    }
+.text-slider {
+  font-size: 3rem !important;
+  font-weight: bold !important;
+  position: relative;
+}
+.contenedor-imagenes {
+  position: relative;
+}
 
-    .mbr-section-btn {
-        margin: 0 auto !important;
-        display: flex !important;
-        justify-content: center !important;
-    }
+.contenedor-imagenes::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container-registro {
+    background-image: url('./assets/images/hamburguesas-papas.jpg');
+}
+
+.container-login {
+    background-image: url('./assets/images/background-login.jpg');
+}
+
+.body-pedido {
+    background-image: url('./assets//images//background-pedido.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.background-transparent {
+    background-color: transparent;
+}
+
+.container-card-registro {
+    background-color: #fff;
+    box-shadow: 0px 0px 3px black;
+}
+
+@media (max-width: 600px) {
+  .cid-sO0lheYJKH .mbr-section-btn {
+    display: block;
+  }
+
+  .mbr-section-btn {
+    margin: 0 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
 }
